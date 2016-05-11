@@ -34,6 +34,8 @@ public class helloworld extends HttpServlet {
 
 		PrintWriter out = response.getWriter();	
 				
+		System.out.println("this is similar to a console.log");
+		
 		String myName = request.getParameter("name");
 		out.print("?name = " + myName);
 		
